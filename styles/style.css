@@ -1,0 +1,24 @@
+.container {
+  width: 1024px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.slides {
+  display: flex;
+  align-items: center;
+}
+
+.slide {
+  border: 1px solid;
+  width: 282px;
+  height: 200px;
+  margin: 10px;
+  padding: 5px;
+  transition: all 300ms linear 0s;
+}
+
+.slides-wrap {
+  overflow-x: hidden;
+}
